@@ -31,7 +31,7 @@ export default function SocketHandler(req: NextApiRequest, res: NextApiResponse 
       addTrailingSlash: false,
       cors: {
         origin: [
-          'https://your-vercel-app.vercel.app',
+          'https://rps-server-lac.vercel.app',
           'http://localhost:3000'
         ],
         methods: ['GET', 'POST']
