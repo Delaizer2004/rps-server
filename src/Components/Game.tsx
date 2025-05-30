@@ -43,7 +43,7 @@ const Game: React.FC = () => {
 
   useEffect(() => {
     const serverUrl = process.env.NODE_ENV === 'production'
-      ? 'https://your-vercel-app.vercel.app'
+      ? 'https://rps-server-lac.vercel.app'
       : 'http://localhost:3000';
 
     const newSocket = io(serverUrl, {
