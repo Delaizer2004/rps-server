@@ -139,7 +139,7 @@ io.on('connection', (socket) => {
 });
 
 if (process.env.NODE_ENV === 'production') {
-  const clientBuildPath = path.join(__dirname, '../client/build');
+  const clientBuildPath = path.join(__dirname, '.../client/build');
   app.use(express.static(clientBuildPath));
 
   app.get('*', (req, res) => {
